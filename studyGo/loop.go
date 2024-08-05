@@ -40,6 +40,7 @@ func main(){
 	guessingGame()
 	randomDate()
 }
+
 // 猜数字游戏
 func guessingGame(){
 	var num = rand.Intn(100)+1
@@ -52,7 +53,8 @@ func guessingGame(){
 			fmt.Printf("猜错了%v\n", randomNum)
 		}
 }
-//随即日期
+
+//随机日期
 func randomDate(){
 	var count = 10
 	for count > 0{
